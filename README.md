@@ -20,7 +20,7 @@ This is a command-line based Task Management System built with Python, SQLAlchem
    `pip install alembic`
     `pip install click`
     `pipenv install`
-2. mkdir TASK_MANAGEMENT
+2. mkdir Task-Management
   - cd Task_Management
   - git add .
   - git commit -m ""
