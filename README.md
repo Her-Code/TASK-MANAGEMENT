@@ -13,6 +13,8 @@ This is a command-line based Task Management System built with Python, SQLAlchem
 - Python 3 version
 - SQLAlchemy
 - SQLite(include Python)
+- Alembic
+- Click
 
 ## Installation
 
