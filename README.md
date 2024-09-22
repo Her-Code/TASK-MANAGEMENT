@@ -53,19 +53,7 @@ This is a command-line based Task Management System built with Python, SQLAlchem
 4. models/task.py: Contains model definitions for Status
    `  __tablename__='tasks' `
 5. runfile.py:Contains the main logic and CLI interface.
-  ` while True:
-        click.echo("\n--- Task Management System Menu ---")
-        click.echo("1. Create Project")
-        click.echo("2. Delete Project")
-        click.echo("3. Add Task")
-        click.echo("4. Complete Task")
-        click.echo("5. Delete Task")
-        click.echo("6. List Projects")
-        click.echo("7. Find Tasks by Status")
-        click.echo("8. List Tasks for a Project")
-        click.echo("0. Exit")
-        
-        choice = click.prompt("Select an option", type=int) `
+  ` choice = click.prompt("Select an option", type=int) `
 
 ## Author
 [Her-Code](https://github.com/Her-Code) - Sharon Kahira
